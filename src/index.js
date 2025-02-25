@@ -1,4 +1,4 @@
-const connectDB = require("./config/db");
+const connectDB = require("../src/config/db");
 const insertSampleData = require("./data/sampleData");
 const runAllAggregations = require("./queries/salesQueries");
 
